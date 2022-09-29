@@ -3168,19 +3168,19 @@ namespace XIVSlothCombo.Combos
         #region Medica Feature
 
         [ReplaceSkill(WHM.Medica2)]
-        [CustomComboInfo("Medica Feature", "Replaces Medica II with Medica whenever you are under Medica II's regen.", WHM.JobID, 60, "", "")]
+        [CustomComboInfo("Medica Feature", "メディカラのHoTを受けている状態の場合、メディカに置き換えます。", WHM.JobID, 60, "", "")]
         WHM_Medica = 19007,
 
             [ParentCombo(WHM_Medica)]
-            [CustomComboInfo("Afflatus Rapture on Medica Option", "Adds Afflatus Rapture to the Medica Feature when available.", WHM.JobID, 61, "", "")]
+            [CustomComboInfo("Afflatus Rapture on Medica Option", "Medica Featureに、ハート・オブ・ラプチャーを追加します。", WHM.JobID, 61, "", "")]
             WHM_Medica_Rapture = 19011,
 
             [ParentCombo(WHM_Medica)]
-            [CustomComboInfo("Afflatus Misery on Medica Option", "Adds Afflatus Misery to the Medica Feature when Misery is ready to be used.", WHM.JobID, 62, "", "")]
+            [CustomComboInfo("Afflatus Misery on Medica Option", "Medica Featureに、使用可能な場合のみハート・オブ・ミゼリを追加します。", WHM.JobID, 62, "", "")]
             WHM_Medica_Misery = 19010,
 
             [ParentCombo(WHM_Medica)]
-            [CustomComboInfo("Thin Air on Medica Option", "Adds Thin Air to the Medica Feature when available.", WHM.JobID, 63, "", "")]
+            [CustomComboInfo("Thin Air on Medica Option", "Medica Featureに、使用可能な場合のみシンエアーを追加します。", WHM.JobID, 63, "", "")]
             WHM_Medica_ThinAir = 19200,
 
         #endregion
@@ -3195,7 +3195,7 @@ namespace XIVSlothCombo.Combos
         WHM_Raise = 19004,
 
         [ReplaceSkill(WHM.Raise)]
-        [CustomComboInfo("Thin Air Raise Feature", "Adds Thin Air to the Global Raise Feature/Alternative Raise Feature.", WHM.JobID, 90, "", "")]
+        [CustomComboInfo("Thin Air Raise Feature", "Global Raise Feature/Alternative Raise Featureにシンエアーを追加します。", WHM.JobID, 90, "", "")]
         WHM_ThinAirRaise = 19014,
 
         #endregion
